@@ -87,6 +87,7 @@ const swiperHow = new Swiper('.how-swiper', {
         slidesPerView: '1',
         spaceBetween: 20,
         freeMode: true,
+        loop: true,
       },
 
       768: {
@@ -94,6 +95,7 @@ const swiperHow = new Swiper('.how-swiper', {
         slidesPerView: '2',
         spaceBetween: 20,
         freeMode: true,
+        loop: true,
       },
 
       1024: {
@@ -101,6 +103,7 @@ const swiperHow = new Swiper('.how-swiper', {
         slidesPerView: 'auto',
         spaceBetween: 20,
         freeMode: true,
+        loop: true,
       },
 
       1440: {
@@ -108,12 +111,14 @@ const swiperHow = new Swiper('.how-swiper', {
         slidesPerView: 'auto',
         spaceBetween: 20,
         freeMode: true,
+        loop: true,
       },
 
       1600: {
-        slidesPerView: '3',
+        slidesPerView: 'auto',
         spaceBetween: 20,
         freeMode: true,
+        loop: true,
       }
     },
 
